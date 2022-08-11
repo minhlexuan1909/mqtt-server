@@ -1,0 +1,29 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "mqtt for mesejing",
+  "main": "mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mqtt.js",
+    "dev": "node mqtt.js"
+  },
+  "keywords": [
+    "mesejing-mqtt"
+  ],
+  "author": "minhle",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.46.3",
+    "aedes-server-factory": "^0.2.1",
+    "dotenv": "^16.0.0",
+    "mqtt": "^4.3.7",
+    "path": "^0.12.7",
+    "websocket-stream": "^5.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:Sudo248/mesejing.git"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "mqtt",
+  "builds": [{ "src": "mqtt.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/mqtt.js" }]
+}

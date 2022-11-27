@@ -7,6 +7,6 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 console.log("Hi " + PORT);
 
-httpServer.listen(PORT, function () {
+httpServer.listen(function () {
   console.log("websocket server listening on port ", PORT);
 });
